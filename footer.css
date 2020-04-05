@@ -1,0 +1,29 @@
+.footer {
+    margin-top: 30%;
+    height: fit-content;
+    display: block;
+    background-color: #E96D6D;
+    border: 10px;
+}
+
+.GoogleMaps{
+    margin-left: 150px;
+    margin-bottom: 30px;
+    width: 250px;
+    height: 250px;
+    max-width: none;
+    background: none;
+}
+
+.footer pre {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 30%;
+    position: absolute;
+    font-size: 15px;
+}
+
+.footer h1 {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    font-size: 20px;
+}
