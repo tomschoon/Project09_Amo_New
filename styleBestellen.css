@@ -38,8 +38,6 @@ li a:hover {
     background-color:#E96D6D;
 }
 
-
-
 .yourElement {
     animation-duration: 3s;
     animation-delay: 2s;
@@ -136,7 +134,7 @@ hr{
 }
 
 .button5{
-    background-color: #E96D6D;
+    background-color: black;
     color: white;
     padding: 30px 50px;
     text-align: center;
@@ -156,19 +154,12 @@ hr{
     font-family: 'Roboto', sans-serif;
 }
 
-
-
-
-
-
-
 .btn {
     text-align: center;
     vertical-align: middle;
     padding: .67em .67em;
     cursor: pointer;
 }
-
 
 .btn-primary {
     color: white;
