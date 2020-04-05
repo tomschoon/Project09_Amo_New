@@ -27,7 +27,7 @@ function ready() {
 }
 
 function purchaseClicked() {
-    alert('Thank you for your purchase')
+    alert('Bedankt voor uw bestelling')
     var cartItems = document.getElementsByClassName('cart-items')[0]
     while (cartItems.hasChildNodes()) {
         cartItems.removeChild(cartItems.firstChild)
@@ -66,7 +66,7 @@ function addItemToCart(title, price, imageSrc) {
     var cartItemNames = cartItems.getElementsByClassName('cart-item-title')
     for (var i = 0; i < cartItemNames.length; i++) {
         if (cartItemNames[i].innerText == title) {
-            alert('This item is already added to the cart')
+            alert('Dit artikel bevind zich al in uw winkelwagen')
             return
         }
     }
@@ -102,16 +102,13 @@ function updateCartTotal() {
     document.getElementsByClassName('cart-total-price')[0].innerText = '€' + total
 }
 
-// When the user scrolls the page, execute myFunction
+// Code voor de sticky navigatie op de bestel pagina
 window.onscroll = function() {myFunction()};
 
-// Get the navbar
 var navbar = document.getElementById("navbar");
 
-// Get the offset position of the navbar
 var sticky = navbar.offsetTop;
 
-// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function myFunction() {
   if (window.pageYOffset >= sticky) {
     navbar.classList.add("sticky")
