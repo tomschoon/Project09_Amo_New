@@ -47,19 +47,19 @@ li a:hover {
     
 }
 .shoppingcart{
-    color: white;
-    margin: 6px;
+    color: white;								/**Color to white**/
+    margin: 6px;								/**Margin to 6pixels**/
     padding-top: 65px;
-    float: right;
-    padding-right: 30px;
+    float: right;								/**Float to right**/
+    padding-right: 30px;						/**Padding to 30 pixels**/
 }
 .tekst1{ 
-    text-align: left;   
-    margin-left: 30%;
+    text-align: left;   						/**Text align to the left**/
+    margin-left: 30%;							/**Margin to 30%**/
 }
 
 .logo{
-    float: left;
+    float: left;								/**Logo should float to the left**/
 }
 .Welkom{
     color: #E96D6D;
