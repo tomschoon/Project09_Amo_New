@@ -5,45 +5,45 @@
 **/
 
 body{
-    background: rgb(255, 255, 255);
-    margin: 0;
+    background: rgb(255, 255, 255);				/**Background color**/
+    margin: 0;									/**Margin to 0**/
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(0, 0, 0);
-    font-family: 'Roboto', sans-serif;
+    list-style-type: none;						/**List style type to none**/
+    margin: 0;									/**Margin to 0**/
+    padding: 0;									/**Padding to 0**/
+    overflow: hidden;							/**Overflow to hidden**/
+    background-color: rgb(0, 0, 0);				/**Background color**/
+    font-family: 'Roboto', sans-serif;			/**Insert an font family**/
 }
 
 li {
-	float: left;
+	float: left;								/**Set floating to left**/
 }
   
 li a {
-    display: block;
-    color: white;
-    text-align: center;
+    display: block;								/**Set display to block**/
+    color: white;								/**Color to white**/
+    text-align: center;							/**Text align to center**/
     padding: 85px 50px;
-    text-decoration: none;
+    text-decoration: none;						/**No decoration needed**/
 }
   
 li a:hover {
-    background-color:#E96D6D;
+    background-color:#E96D6D;					/**Background hovering color**/
 }
 
 
 
 .yourElement {
-    animation-duration: 3s;
-    animation-delay: 2s;
-    animation-iteration-count: infinite;
+    animation-duration: 3s;						/**Duration to 3 seconds**/
+    animation-delay: 2s;						/**Delay to 2 seconds**/
+    animation-iteration-count: infinite;		/**Animation count to infinite**/
   }
 
 #clickableAwesomeFont {
-    cursor: pointer
+    cursor: pointer								/**Set cursor to pointer**/
     
 }
 .shoppingcart{
